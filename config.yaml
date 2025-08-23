@@ -1,0 +1,8 @@
+# config.yaml
+start: "2020-01-01"
+end: "today"
+symbols: "EUR,GBP,JPY,AUD,CAD,CHF,CNY,SEK,NZD,TRY,INR,MXN,BTC"
+table: "exchange_rates"
+batch_days: 365
+upsert_batch_size: 1000
+dry_run: false
